@@ -23,4 +23,5 @@ driver.get("http://google.com")
 
 st.code(driver.page_source)
 
-os.system('python tmp_srv.py')
+from subprocess import call
+call(["python", "tmp_srv.py"])
