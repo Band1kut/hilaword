@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 
 # state = st.session_state
 
@@ -21,3 +22,5 @@ driver = get_driver()
 driver.get("http://google.com")
 
 st.code(driver.page_source)
+
+os.system('python tmp_srv.py')
