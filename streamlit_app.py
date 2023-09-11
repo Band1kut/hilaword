@@ -1,12 +1,11 @@
 import streamlit as st
 
-state = st.session_state()
+# state = st.session_state()
 
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-# from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.core.os_manager import ChromeType
 
