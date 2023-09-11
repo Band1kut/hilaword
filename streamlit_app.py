@@ -30,4 +30,4 @@ import shutil
 stat = shutil.disk_usage("/")
 
 # Print the free disk space
-print("Free disk space:", stat.free)
+st.write(f"Free disk space:{stat.free}")
