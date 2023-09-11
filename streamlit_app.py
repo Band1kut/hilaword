@@ -24,4 +24,10 @@ driver.get("http://google.com")
 st.code(driver.page_source)
 
 
-import tmp_srv
+import shutil
+
+# Get the disk usage statistics for the current disk
+stat = shutil.disk_usage("/")
+
+# Print the free disk space
+print("Free disk space:", stat.free)
